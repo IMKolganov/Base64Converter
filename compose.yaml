@@ -1,0 +1,7 @@
+﻿services:
+  base64converter:
+    image: base64converter
+    build:
+      context: .
+      dockerfile: Dockerfile
+
